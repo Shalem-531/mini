@@ -1,44 +1,49 @@
-head{
-    background:red;
-}
-.container{
-    display:flex;
+.container {
+    display: flex;
     align-items: center;
-    justify-content:center;
-    margin-bottom:150px;
-    background: linear-gradient(to top,rgba(0, 94, 255, 0.759),rgb(255, 255, 255));
-    color:black;
-    min-height:100vh;
-}
-.hea{
-    text-align: center;
-    background-color:brown ;
-    margin-top:40px;
-    margin-bottom:25px;
-    padding:20px;
-    color:white;
-}
-.inp input{
     justify-content: center;
-    padding:10px;
-    margin-bottom:10px;
-    width:100%;
+    margin-bottom: 150px;
+    background: linear-gradient(to top, rgba(0, 94, 255, 0.759), rgb(255, 255, 255));
+    color: black;
+    min-height: 100vh;
+}
+
+.hea {
+    text-align: center;
+    background-color: brown;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding: 20px;
+    color: white;
+}
+
+.inp {
+    max-width: 300px;
+    width: 100%;
+}
+
+.inp input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 280px; 
     font-family: Arial, Helvetica, sans-serif;
-    font-weight:50;
 }
-.ind button{ 
-    border:none;
-    padding:10px;
+
+.ind button {
+    border: none;
+    padding: 10px;
     border-radius: 15px;
-    width:100%;
-    cursor:pointer;
+    width: 100%;
+    cursor: pointer;
     background-color: darkorchid;
-   
 }
-button:hover{
-     background-color: chartreuse; 
+
+button:hover {
+    background-color: chartreuse;
 }
-.dis{
-    font-size:25px;
-    text-align:center;
+
+.dis {
+    font-size: 25px;
+    text-align: center;
 }
