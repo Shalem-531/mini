@@ -25,7 +25,7 @@
 .inp input {
     padding: 10px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 85%;
     max-width: 280px; 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,7 +34,7 @@
     border: none;
     padding: 10px;
     border-radius: 15px;
-    width: 100%;
+    width: 85%;
     cursor: pointer;
     background-color: darkorchid;
 }
